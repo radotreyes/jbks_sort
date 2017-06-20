@@ -6,7 +6,6 @@
 '''
 import openpyxl
 from docx import Document
-from enum import Enum
 
 # get workbook and sheet
 wb = openpyxl.load_workbook( 'sample_data.xlsx' )
